@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNK - Attack On Titan</title>
+    <link rel="stylesheet" type="text/css" href="snk.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="logo2.png">
+    <link rel="shortcut icon" href="logo2.png">
+</head>
+
+<body>
+
+<!-- =========================
+     INTRO SCREEN
+========================= -->
+<div id="intro-screen">
+    <div class="intro-bg"></div>
+    <div class="intro-center">
+        <h1>Attack On Titan</h1>
+        <p>- Hajime Isayama -</p>
+        <button id="startBtn">Offrons notre cœur !</button>
+    </div>
+</div>
+
+<!-- =========================
+     SITE PRINCIPAL
+========================= -->
+<div id="main-site">
+
+    <!-- HEADER -->
+    <header class="header" id="main-header">
+         <button id="toggleSidebar" class="toggle-btn">☰</button>
+        <div class="header-images">
+            <img src="banner1.jpg" alt="">
+            <img src="banner2.jpg" alt="">
+            <img src="banner3.jpg" alt="">
+        </div>
+    </header>
+
+    <!-- CONTAINER -->
+    <div class="container">
+
+        <!-- SIDEBAR -->
+  
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-inner">
+            <h2>- Menu -</h2>
+            <ul>
+                <li><a href="#" onclick="montrer('univers'); return false;">- UNIVERS -</a></li>
+                <li><a href="#" onclick="montrer('serie'); return false;">- SERIE -</a></li>
+                <li><a href="#" onclick="montrer('personnages'); return false;">- PERSONNAGES -</a></li>
+                <li><a href="#" onclick="montrer('titans'); return false;">- TITANS -</a></li>
+                <li><a href="#" onclick="montrer('carte'); return false;">- CARTE -</a></li>
+                <li><a href="#" onclick="montrer('histoire'); return false;">- HISTOIRE -</a></li>
+                <li><a href="#" onclick="montrer('organisations'); return false;">- ORGANISATIONS -</a></li>
+                <li><a href="#" onclick="montrer('technologies'); return false;">- TECHNOLOGIES -</a></li>
+                <li><a href="https://anime-sama.tv/catalogue/shingeki-no-kyojin/" target="_blank">Regarder SNK</a></li>
+            </ul>
+            </div>
+        </aside>
+    
+        <!-- MAIN CONTENT -->
+        <main class="content" id="content">
+
+            <!-- SECTION INTRO -->
+            <div id="univers" class="section">
+                <h2>C'est quoi SNK ?</h2>
+                <p>L'Attaque des Titans (進撃の巨人, Shingeki no Kyojin?, litt. « Le Géant assaillant », souvent abrégé SnK), aussi connu sous le titre anglais Attack on Titan, est un shōnen manga écrit et dessiné par Hajime Isayama. Il est prépublié entre septembre 2009 et avril 2021 dans le magazine Bessatsu Shōnen Magazine puis compilé en trente-quatre volumes reliés par l’éditeur Kōdansha. La version française est publiée en intégralité par Pika Édition dans la collection seinen entre juin 2013 et octobre 2021.
+
+                L’histoire tourne autour du personnage d’Eren Jäger dans un monde où l’humanité vit entourée d’immenses murs pour se protéger de créatures gigantesques, les Titans. Le récit raconte le combat mené par l’humanité pour reconquérir son territoire, en éclaircissant les mystères liés à l’apparition des Titans, du monde extérieur et des évènements précédant la construction des murs.</p>
+            </div>
+
+            <!-- SECTION PERSONNAGES -->
+            <div id="personnages" class="section">
+                <h2>Personnages</h2>
+
+                <!-- Bataillon d'exploration -->
+                <h3>Île de Paradis - Bataillon d'Exploration</h3>
+                <div class="selecteur-personnages">
+                    <a href="personnages/Eren/eren.html"><button>Eren Jäger</button></a>
+                    <a href="personnages/Mikasa/mikasa.html"><button>Mikasa Ackerman</button></a>
+                    <a href="personnages/Armin/armin.html"><button>Armin Arlert</button></a>
+                    <a href="personnages/Levi/levi.html"><button>Levi Ackerman</button></a>
+                    <a href="personnages/Erwin/erwin.html"><button>Erwin Smith</button></a>
+                    <a href="personnages/Hange/hange.html"><button>Hange Zoé</button></a>
+                    <a href="personnages/Jean/jean.html"><button>Jean Kirstein</button></a>
+                    <a href="personnages/Connie/connie.html"><button>Connie Springer</button></a>
+                    <a href="personnages/Sasha/sasha.html"><button>Sasha Braus</button></a>
+                    <a href="personnages/Historia/historia.html"><button>Historia Reiss</button></a>
+                </div>
+
+                <!-- Garnison -->
+                <h3>Île de Paradis - Garnison</h3>
+                <div class="selecteur-personnages">
+                    <a href="personnages/Pixis/pixis.html"><button>Dot Pixis</button></a>
+                    <a href="personnages/Rico/rico.html"><button>Rico Brzenska</button></a>
+                </div>
+
+                <!-- Brigades spéciales -->
+                <h3>Île de Paradis - Brigades Spéciales</h3>
+                <div class="selecteur-personnages">
+                    <a href="personnages/Kenny/kenny.html"><button>Kenny Ackerman</button></a>
+                </div>
+
+                <!-- Guerriers de Mahr -->
+                <h3>Guerriers de Mahr</h3>
+                <div class="selecteur-personnages">
+                    <a href="personnages/Reiner/reiner.html"><button>Reiner Braun</button></a>
+                    <a href="personnages/Annie/annie.html"><button>Annie Leonhart</button></a>
+                    <a href="personnages/Bertolt/bertolt.html"><button>Bertolt Hoover</button></a>
+                    <a href="personnages/Zeke/zeke.html"><button>Zeke Jäger</button></a>
+                    <a href="personnages/Pieck/pieck.html"><button>Pieck Finger</button></a>
+                    <a href="personnages/Porco/porco.html"><button>Porco Galliard</button></a>
+                </div>
+
+                <!-- Candidats Guerriers -->
+                <h3>Candidats Guerriers de Mahr</h3>
+                <div class="selecteur-personnages">
+                    <a href="personnages/Gabi/gabi.html"><button>Gabi Braun</button></a>
+                    <a href="personnages/Falco/falco.html"><button>Falco Grice</button></a>
+                    <a href="personnages/Colt/colt.html"><button>Colt Grice</button></a>
+                    <a href="personnages/Udo/udo.html"><button>Udo</button></a>
+                    <a href="personnages/Zofia/zofia.html"><button>Zofia</button></a>
+                </div>
+
+                <!-- Autres personnages -->
+                <h3>Autres Personnages Importants</h3>
+                <div class="selecteur-personnages">
+                    <a href="personnages/Ymir/ymir.html"><button>Ymir</button></a>
+                    <a href="personnages/Grisha/grisha.html"><button>Grisha Jäger</button></a>
+                    <a href="personnages/Ymir-Fritz/ymir-fritz.html"><button>Ymir Fritz</button></a>
+                    <a href="personnages/Frieda/frieda.html"><button>Frieda Reiss</button></a>
+                    <a href="personnages/Rod/rod.html"><button>Rod Reiss</button></a>
+                    <a href="personnages/Uri/uri.html"><button>Uri Reiss</button></a>
+                    <a href="personnages/Kruger/kruger.html"><button>Eren Kruger</button></a>
+                    <a href="personnages/Willy/willy.html"><button>Willy Tybur</button></a>
+                    <a href="personnages/Lara/lara.html"><button>Lara Tybur</button></a>
+                    <a href="personnages/Marcel/marcel.html"><button>Marcel Galliard</button></a>
+                </div>
+            </div>
+
+            <div id="serie" class="section">
+                <h2 id="serie-title">La Série</h2>
+            <button id="btn-back" class="btn-retour" onclick="retourSmart()" style="display:none;">
+    ← Retour
+</button>
+
+    <!-- HUB -->
+    <div id="hubSeries" class="hub-series">
+
+        <div class="hub-card anime-card" onclick="ouvrirType('anime')">
+            <div class="hub-overlay">
+                <h3>ANIME</h3>
+            </div>
+        </div>
+
+
+        <div class="hub-card manga-card" onclick="ouvrirType('manga')">
+            <div class="hub-overlay">
+                <h3>MANGA</h3>
+            </div>
+        </div>
+
+
+        <a href="https://anime-sama.tv/catalogue/shingeki-no-kyojin/"
+            target="_blank"
+            class="hub-bottom-btn watch-btn">
+            Regarder
+        </a>
+        <a href="https://anime-sama.tv/catalogue/shingeki-no-kyojin/scan/vf/"
+            target="_blank"
+            class="hub-bottom-btn read-btn">
+            Lire
+        </a>
+
+</div>
+
+    </div>
+
+    <!-- ANIME -->
+    <div id="anime" class="type-detail">
+        
+
+        
+        <div class="selecteur-saisons">
+
+    <div class="season-card" onclick="entrerSaison('saison1')" style="background-image:url('saisons/s1-poster.jpg')">
+        <div class="season-overlay">
+            <h3>Saison 1</h3>
+        </div>
+    </div>
+
+    <div class="season-card" onclick="entrerSaison('saison2')" style="background-image:url('saisons/s2-poster.jpg')">
+        <div class="season-overlay">
+            <h3>Saison 2</h3>
+        </div>
+    </div>
+
+    <div class="season-card" onclick="entrerSaison('saison3')" style="background-image:url('saisons/s3-poster.jpg')">
+        <div class="season-overlay">
+            <h3>Saison 3</h3>
+        </div>
+    </div>
+
+    <div class="season-card" onclick="entrerSaison('saison4')" style="background-image:url('saisons/s4-poster.jpg')">
+        <div class="season-overlay">
+            <h3>Saison 4</h3>
+        </div>
+    </div>
+
+</div>
+            
+            <!-- Saison 1 à 4 -->
+
+            
+
+    <!-- MENU INTERNE -->
+    <div class="menu-saison" style="display:none;">
+        <button onclick="ouvrirSaisonSection('s1-infos')">Infos techniques</button>
+        <button onclick="ouvrirSaisonSection('s1-opening-ending')">Openings / Endings</button>
+        <button onclick="ouvrirSaisonSection('s1-arcs')">Arcs & Résumé</button>
+        <button onclick="ouvrirSaisonSection('s1-episodes')">Épisodes</button>
+        <a id="watch-season-btn"
+            href="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/"
+            target="_blank"
+            class="season-watch-btn">
+            <strong>Regarder</strong>
+        </a>
+    </div>
+
+
+    <!-- CONTENU INTERNE -->
+
+    <div id="s1-infos" class="saison-section">
+
+    <div class="infos-layout">
+
+        <div class="infos-poster">
+            <img src="saisons/s1-poster.jpg" alt="Affiche Saison 1">
+        </div>
+
+        <div class="infos-content">
+            <h4>Informations techniques</h4>
+
+            <p><strong>Studio :</strong> WIT Studio</p>
+            <p><strong>Chaîne d'origine :</strong> TV Tokyo</p>
+            <p><strong>Diffusion :</strong> Avril 2013 – Septembre 2013</p>
+            <p><strong>Épisodes :</strong> 25</p>
+            <p><strong>Durée totale :</strong> 9h35</p>
+            <p><strong>Adaptation :</strong> Chapitres 1 à 34</p>
+            <p><strong>Op1 :</strong> Guren no Yumiya – Linked Horizon</p>
+            <p><strong>Op2 :</strong> Jiyuu no Tsubasa – Linked Horizon</p>
+            <p><strong>End1 :</strong> Utsukushiki Zankoku na Sekai – Yōko Hikasa</p>
+            <p><strong>End2 :</strong> Great Escape – Cinema Staff</p>
+        
+        </div>
+
+    </div>
+
+</div>
+
+    <div id="s1-opening-ending" class="saison-section">
+
+    <h3 class="section-subtitle">Openings</h3>
+
+    <div class="video-grid">
+
+        <div class="video-card">
+            <video controls preload="metadata">
+                <source src="videos/s1-op1.mp4" type="video/mp4">
+            </video>
+            <p>Opening 1 – Guren no Yumiya</p>
+        </div>
+
+        <div class="video-card">
+            <video controls preload="metadata">
+                <source src="videos/s1-op2.mp4" type="video/mp4">
+            </video>
+            <p>Opening 2 – Jiyuu no Tsubasa</p>
+        </div>
+
+    </div>
+
+    <h3 class="section-subtitle">Endings</h3>
+
+    <div class="video-grid">
+
+        <div class="video-card">
+            <video controls preload="metadata">
+                <source src="videos/ed1.mp4" type="video/mp4">
+            </video>
+            <p>Ending 1 – Utsukushiki Zankoku na Sekai</p>
+        </div>
+
+        <div class="video-card">
+            <video controls preload="metadata">
+                <source src="videos/ed2.mp4" type="video/mp4">
+            </video>
+            <p>Ending 2 – Great Escape</p>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+    <div id="s1-arcs" class="saison-section">
+        <div class="image-placeholder"></div>
+
+        <h4>Arc : Chute de Shiganshina</h4>
+        <p>Résumé intense ici...</p>
+
+        <h4>Moments marquants</h4>
+        <ul>
+            <li>Apparition du Titan Colossal</li>
+            <li>Mort de...</li>
+        </ul>
+    </div>
+
+    <div id="s1-manga" class="saison-section">
+        <div class="image-placeholder"></div>
+
+        <p>Adaptation des chapitres 1 à 34</p>
+    </div>
+
+
+
+
+
+    <div id="s1-episodes" class="saison-section">
+
+    <h3 class="section-subtitle">Épisodes – Saison 1</h3>
+
+    <!-- Barre recherche -->
+    <input type="text" id="episodeSearch" placeholder="Rechercher un épisode...">
+
+
+<select id="filterEpisodes">
+    <option value="none">Filtrer...</option>
+    <option value="ratingDesc">Rating : du plus haut au plus bas</option>
+    <option value="ratingAsc">Rating : du plus bas au plus haut</option>
+    <option value="epAsc">Épisodes : du 1 → dernier</option>
+    <option value="epDesc">Épisodes : du dernier → 1</option>
+</select>
+
+    <!-- Grille -->
+    <div class="episodes-grid" id="episodesGrid">
+
+        <!-- Épisode 1 -->
+        <div class="episode-tile" date-ep="1"
+             data-title="À toi, dans 2000 ans"
+             data-summary="Après 100 ans de paix, l'humanité se souvient soudain de la terreur d'être à la merci des Titans."
+             data-rating="9.2"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">01</div>
+            <div class="ep-title">À toi, dans 2000 ans</div>
+            <div class="ep-rating">★ 9.2</div>
+
+        </div>
+
+        <!-- Épisode 2 -->
+        <div class="episode-tile" date-ep="2"
+             data-title="Ce jour-là"
+             data-summary="Quand les Titans font une brèche dans le mur, les citoyens de Shiganshina s'enfuient, mais c'est une vie pénible qui attend les survivants parvenus à se mettre à l'abri."
+             data-rating="8.5"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">02</div>
+            <div class="ep-title">Ce jour-là</div>
+            <div class="ep-rating">★ 8.5</div>
+
+        </div>
+
+        <!-- Épisode 3 -->
+        <div class="episode-tile" date-ep="3"
+             data-title="Une faible étincelle dans le désespoir"
+             data-summary="Eren commence à s'entraîner avec la section d'élite. Alors qu'il est empêtré dans un exercice de manœuvre, Bertolt et Reiner lui donnent des conseils."
+             data-rating="8.1"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">03</div>
+            <div class="ep-title">Une faible étincelle dans le désespoir</div>
+            <div class="ep-rating">★ 8.1</div>
+
+        </div>
+
+        <!-- Épisode 4 -->
+        <div class="episode-tile" date-ep="4"
+             data-title="Le soir de la cérémonie de fin d’entraînement"
+             data-summary="Annie prouve son talent lors d'une séance de combat, Jean rêve de servir le roi, et la cérémonie de remise des diplômes amène son lot de révélations et de violence."
+             data-rating="8.6"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">04</div>
+            <div class="ep-title">Le soir de la cérémonie de fin d’entraînement</div>
+            <div class="ep-rating">★ 8.6</div>
+
+        </div>
+
+        <!-- Épisode 5 -->
+        <div class="episode-tile" date-ep="5"
+             data-title="Première bataille"
+             data-summary="Eren affronte le Titan colossal sorti de nulle part qui a fait un trou dans la porte du Mur Rose. Les soldats de la garnison se battent pour protéger les civils, mais les pertes sont lourdes."
+             data-rating="9.2"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">05</div>
+            <div class="ep-title">Première bataille</div>
+            <div class="ep-rating">★ 9.2</div>
+
+        </div>
+
+        <!-- Épisode 6 -->
+        <div class="episode-tile" date-ep="6"
+             data-title="Le monde qu'elle voyait"
+             data-summary="Armin se remet de la disparition de ses amis et alliés après le massacre de sa brigade par les Titans. Ailleurs dans la ville, Mikasa règle leur compte à plusieurs monstres."
+             data-rating="8.9"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">06</div>
+            <div class="ep-title">Le monde qu'elle voyait</div>
+            <div class="ep-rating">★ 8.9</div>
+
+        </div>
+
+        <!-- Épisode 7 -->
+        <div class="episode-tile" date-ep="7"
+             data-title="Courte lame"
+             data-summary="Quand est sonnée la retraite, nombre d'élèves officiers manquent d'énergie pour grimper le mur et se mettre à l'abri. Un nouveau type de Titan pousse Mikasa à se battre."
+             data-rating="8.9"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">07</div>
+            <div class="ep-title">Courte lame</div>
+            <div class="ep-rating">★ 8.9</div>
+
+        </div>
+
+        <!-- Épisode 8 -->
+        <div class="episode-tile" date-ep="8"
+             data-title="J’entends les battements de ton cœur"
+             data-summary="Alors que les élèves officiers abandonnés tentent de reprendre leur QG, Armin conçoit un plan risqué consistant à monter les Titans les uns contre les autres."
+             data-rating="9.2"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">08</div>
+            <div class="ep-title">J’entends les battements de ton cœur</div>
+            <div class="ep-rating">★ 9.2</div>
+
+        </div>
+
+        <!-- Épisode 9 -->
+        <div class="episode-tile" date-ep="9"
+             data-title="Qu’est-il advenu du bras gauche ?"
+             data-summary="Les canons sont tournés sur Eren qui s'efforce de se rappeler ce qui lui est arrivé dans le ventre d'un monstre et comment il a pu devenir l'ennemi de l'humanité."
+             data-rating="8.8"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">09</div>
+            <div class="ep-title">Qu’est-il advenu du bras gauche ?</div>
+            <div class="ep-rating">★ 8.8</div>
+
+        </div>
+
+        <!-- Épisode 10 -->
+        <div class="episode-tile" date-ep="10"
+             data-title="Répondre"
+             data-summary="La transformation d'Eren provoque le doute et la peur chez les élèves officiers. Armin convainc le major d'utiliser les pouvoirs d'Eren à l'avantage des humains."
+             data-rating="8.3"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">10</div>
+            <div class="ep-title">Répondre</div>
+            <div class="ep-rating">★ 8.3</div>
+
+        </div>
+
+        <!-- Épisode 11 -->
+        <div class="episode-tile" date-ep="11"
+             data-title="Idole"
+             data-summary="Les troupes veulent utiliser les pouvoirs d'Eren pour boucher la brèche dans le mur et récupérer Trost. Et si les Titans n'étaient pas le pire fléau de l'humanité ?"
+             data-rating="8.3"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">11</div>
+            <div class="ep-title">Idole</div>
+            <div class="ep-rating">★ 8.3</div>
+
+        </div>
+
+        <!-- Épisode 12 -->
+        <div class="episode-tile" date-ep="12"
+             data-title="Blessure"
+             data-summary="Le plan de reprise de Trost est anéanti quand les nouveaux pouvoirs d'Eren le transforment en géant décérébré, tandis que les Titans continuent à déferler sur la ville."
+             data-rating="8.3"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">12</div>
+            <div class="ep-title">Blessure</div>
+            <div class="ep-rating">★ 8.3</div>
+
+        </div>
+
+        <!-- Épisode 13 -->
+        <div class="episode-tile" date-ep="13"
+             data-title="Désir primitif"
+             data-summary="Jean prend des mesures désespérées pour remplacer son équipement de manœuvre cassé. Eren parvient à reboucher le trou dans le mur avec l'aide de ses camarades."
+             data-rating="8.9"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">13</div>
+            <div class="ep-title">Désir primitif</div>
+            <div class="ep-rating">★ 8.9</div>
+
+        </div>
+
+        <!-- Épisode 14 -->
+        <div class="episode-tile" date-ep="14"
+             data-title="On ne peut pas le regarder dans les yeux"
+             data-summary="Au tribunal, la police militaire exige l'exécution d'Eren, mais le bataillon d'exploration soutient qu'il représente une ressource non négligeable pour l'humanité."
+             data-rating="8.5"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">14</div>
+            <div class="ep-title">On ne peut pas le regarder dans les yeux</div>
+            <div class="ep-rating">★ 8.5</div>
+
+        </div>
+
+        <!-- Épisode 15 -->
+        <div class="episode-tile" date-ep="15"
+             data-title="Unité d’intervention"
+             data-summary="Eren se rend dans un château abandonné pour parfaire son entraînement. Hansi fait subir une batterie de tests et d'expériences à deux Titans capturés."
+             data-rating="8.1"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">15</div>
+            <div class="ep-title">Unité d’intervention</div>
+            <div class="ep-rating">★ 8.1</div>
+
+        </div>
+
+        <!-- Épisode 16 -->
+        <div class="episode-tile" date-ep="16"
+             data-title="Ce qu’il faut faire maintenant"
+             data-summary="Tout le monde est suspect lors de l'enquête visant à retrouver les tueurs des Titans destinés aux tests. Les élèves officiers se cherchent un corps d'armée."
+             data-rating="8.2"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">16</div>
+            <div class="ep-title">Ce qu’il faut faire maintenant</div>
+            <div class="ep-rating">★ 8.2</div>
+
+        </div>
+
+        <!-- Épisode 17 -->
+        <div class="episode-tile" date-ep="17"
+             data-title="Le titan féminin"
+             data-summary="Alors qu'il s'avance vers Shiganshina, le bataillon d'exploration tombe sur un Titan doué d'intelligence, et femme, une situation décidément atypique."
+             data-rating="9.1"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">17</div>
+            <div class="ep-title">Le titan féminin</div>
+            <div class="ep-rating">★ 9.1</div>
+
+        </div>
+
+        <!-- Épisode 18 -->
+        <div class="episode-tile" date-ep="18"
+             data-title="La forêt des arbres géants"
+             data-summary="La femme Titan continue à faire des dégâts dans le bataillon d'exploration. Livaï divise les troupes et envoie Eren avec le ravitaillement dans une forêt impénétrable."
+             data-rating="8.9"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">18</div>
+            <div class="ep-title">La forêt des arbres géants</div>
+            <div class="ep-rating">★ 8.9</div>
+
+        </div>
+
+        <!-- Épisode 19 -->
+        <div class="episode-tile" date-ep="19"
+             data-title="Mordre"
+             data-summary="Tandis que la femme Titan massacre les membres du bataillon d'exploration, Eren doit prendre une décision difficile : faire confiance à ses camarades ou agir seul."
+             data-rating="8.9"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">19</div>
+            <div class="ep-title">Mordre</div>
+            <div class="ep-rating">★ 8.9</div>
+
+        </div>
+
+        <!-- Épisode 20 -->
+        <div class="episode-tile" date-ep="20"
+             data-title="Erwin Smith"
+             data-summary="La femme Titan capturée, il revient à Erwin de découvrir quel humain se cache à l'intérieur de sa carcasse. Les explorateurs comprennent qu'ils abritent un espion."
+             data-rating="9.1"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">20</div>
+            <div class="ep-title">Erwin Smith</div>
+            <div class="ep-rating">★ 9.1</div>
+
+        </div>
+
+        <!-- Épisode 21 -->
+        <div class="episode-tile" date-ep="21"
+             data-title="Coup dur"
+             data-summary="Un traître a infiltré le bataillon d'exploration, détruisant leurs rangs de l'intérieur. Quand il s'avère qu'il s'agit de la femme Titan, Eren se prépare au combat."
+             data-rating="9.6"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">21</div>
+            <div class="ep-title">Coup dur</div>
+            <div class="ep-rating">★ 9.6</div>
+
+        </div>
+
+        <!-- Épisode 22 -->
+        <div class="episode-tile" date-ep="22"
+             data-title="Les vaincus"
+             data-summary="Ayant vu Eren se faire avaler par la femme Titan, Mikasa et Livaï suivent le monstre impitoyable dans l'espoir qu'Eren soit toujours vivant."
+             data-rating="9.1"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">22</div>
+            <div class="ep-title">Les vaincus</div>
+            <div class="ep-rating">★ 9.1</div>
+
+        </div>
+
+        <!-- Épisode 23 -->
+        <div class="episode-tile" date-ep="23"
+             data-title="Sourire"
+             data-summary="Après l'expédition de reconnaissance avortée, Eren et ses chefs sont convoqués dans la capitale. Annie accepte de se joindre à Armin pour défier le gouvernement."
+             data-rating="9.0"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">23</div>
+            <div class="ep-title">Sourire</div>
+            <div class="ep-rating">★ 9.0</div>
+
+        </div>
+
+        <!-- Épisode 24 -->
+        <div class="episode-tile" date-ep="24"
+             data-title="Pitié"
+             data-summary="Quand l'identité de la femme Titan est enfin révélée, elle saccage tout à l'intérieur du Mur Sina, tandis qu'Armin et Mikasa se démènent pour l'en empêcher."
+             data-rating="9.2"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">24</div>
+            <div class="ep-title">Pitié</div>
+            <div class="ep-rating">★ 9.2</div>
+
+        </div>
+
+        <!-- Épisode 25 -->
+        <div class="episode-tile" date-ep="25"
+             data-title="Mur"
+             data-summary="Eren affronte la femme Titan en combat et démolit le district de Stohess à l'intérieur du Mur Sina. Erwin doit assumer les conséquences de son plan."
+             data-rating="9.4"
+             data-link="https://anime-sama.tv/catalogue/shingeki-no-kyojin/saison1/vostfr/">
+
+            <div class="ep-number">25</div>
+            <div class="ep-title">Mur</div>
+            <div class="ep-rating">★ 9.4</div>
+
+        </div>
+
+        
+
+        
+
+        
+
+    </div>
+
+    <!-- Popup résumé -->
+    <div id="episodeModal" class="episode-modal">
+        <div class="episode-modal-content">
+            <span id="closeModal">&times;</span>
+            <h4 id="modalTitle"></h4>
+            <p id="modalSummary"></p>
+            <p id="modalRating"></p>
+            <a id="modalLink" target="_blank" class="watch-episode-btn">
+                Regarder l’épisode
+            </a>
+        </div>
+    </div>
+
+</div>
+
+</div>
+                
+                <div id="saison2" class="saison-detail">
+                    <h3>Saison 2 (2017) - 12 épisodes</h3>
+                    <p>Révélations sur les Titans et approfondissement des mystères.</p>
+                    <ul class="episodes-list">
+                        <li>Épisode 26 : Titan bestial</li>
+                        <li>Épisode 27 : J'y suis pour quelque chose</li>
+                        <li>Épisode 28 : Vers le sud-ouest</li>
+                        <li>Épisode 29 : Soldat</li>
+                        <li>Épisode 30 : Historia</li>
+                        <li>Épisode 31 : Guerrier</li>
+                        <li>Épisode 32 : Fermeture</li>
+                        <li>Épisode 33 : Assaut</li>
+                        <li>Épisode 34 : Ouverture</li>
+                        <li>Épisode 35 : Enfants</li>
+                        <li>Épisode 36 : Charge</li>
+                        <li>Épisode 37 : Cri</li>
+                    </ul>
+                </div>
+                
+                <div id="saison3" class="saison-detail">
+                    <h3>Saison 3 (2018-2019) - 22 épisodes</h3>
+                    <p>Conspirations politiques et vérité sur le monde extérieur.</p>
+                    <h4>Partie 1 (Épisodes 38-49)</h4>
+                    <ul class="episodes-list">
+                        <li>Épisode 38 : Fumée</li>
+                        <li>Épisode 39 : Douleur</li>
+                        <li>Épisode 40 : Vieilles histoires</li>
+                        <li>Épisode 41 : Confiance</li>
+                        <li>Épisode 42 : Réponse</li>
+                        <li>Épisode 43 : Péché</li>
+                        <li>Épisode 44 : Vœu</li>
+                        <li>Épisode 45 : Amis</li>
+                        <li>Épisode 46 : Ennemi</li>
+                        <li>Épisode 47 : Porteur de chaînes</li>
+                        <li>Épisode 48 : Assaillant</li>
+                        <li>Épisode 49 : Nuit de la fin de la bataille</li>
+                    </ul>
+                    <h4>Partie 2 (Épisodes 50-59)</h4>
+                    <ul class="episodes-list">
+                        <li>Épisode 50 : Ville où tout a commencé</li>
+                        <li>Épisode 51 : Coup de tonnerre</li>
+                        <li>Épisode 52 : Descente</li>
+                        <li>Épisode 53 : Parfait jeu</li>
+                        <li>Épisode 54 : Héros</li>
+                        <li>Épisode 55 : Minuit</li>
+                        <li>Épisode 56 : Sous-sol</li>
+                        <li>Épisode 57 : Ce jour-là</li>
+                        <li>Épisode 58 : Assaillant de l'autre côté de la mer</li>
+                        <li>Épisode 59 : Vers l'autre côté du mur</li>
+                    </ul>
+                </div>
+                
+                <div id="saison4" class="saison-detail">
+                    <h3>Saison 4 (2020-2023) - 28 épisodes</h3>
+                    <p>Arc final et conclusion de l'histoire.</p>
+                    <h4>Partie 1 (Épisodes 60-75)</h4>
+                    <ul class="episodes-list">
+                        <li>Épisode 60 : De l'autre côté de la mer</li>
+                        <li>Épisode 61 : Coup d'envoi du spectacle nocturne</li>
+                        <li>Épisode 62 : Porte de l'espoir</li>
+                        <li>Épisode 63 : De la main à la main</li>
+                        <li>Épisode 64 : Déclaration de guerre</li>
+                        <li>Épisode 65 : Marteau de guerre</li>
+                        <li>Épisode 66 : Assaut</li>
+                        <li>Épisode 67 : Assassin</li>
+                        <li>Épisode 68 : Volontaires</li>
+                        <li>Épisode 69 : Brave volontaire</li>
+                        <li>Épisode 70 : Un bon thé</li>
+                        <li>Épisode 71 : Guides</li>
+                        <li>Épisode 72 : Enfants de la forêt</li>
+                        <li>Épisode 73 : Violence sauvage</li>
+                        <li>Épisode 74 : Seul salut</li>
+                        <li>Épisode 75 : Au-dessus et en dessous</li>
+                    </ul>
+                    <h4>Partie 2 (Épisodes 76-87)</h4>
+                    <ul class="episodes-list">
+                        <li>Épisode 76 : Condamnation</li>
+                        <li>Épisode 77 : Représailles</li>
+                        <li>Épisode 78 : Deux frères</li>
+                        <li>Épisode 79 : Souvenirs de l'avenir</li>
+                        <li>Épisode 80 : De toi, il y a 2000 ans</li>
+                        <li>Épisode 81 : Assaillant</li>
+                        <li>Épisode 82 : Crépuscule</li>
+                        <li>Épisode 83 : Orgueil</li>
+                        <li>Épisode 84 : Nuit de la fin</li>
+                        <li>Épisode 85 : Traître</li>
+                        <li>Épisode 86 : Rétrospective</li>
+                        <li>Épisode 87 : L'aube de l'humanité</li>
+                    </ul>
+                </div>
+                <!-- MANGA -->
+    <div id="manga" class="type-detail">
+        <button class="btn-retour" onclick="retourHub()">← Retour</button>
+
+        <h3>Le Manga</h3>
+        <p>Chapitre 1 à 139</p>
+    </div>
+            </div>
+
+            <!-- SECTION TITANS -->
+<div id="titans" class="section">
+    <h2>Les Titans</h2>
+
+    <div class="titan">
+        <h3>Titan Colossal</h3>
+        <p>60 mètres de haut, capable de dégager une énorme quantité de vapeur brûlante.</p>
+    </div>
+
+    <div class="titan">
+        <h3>Titan Cuirassé</h3>
+        <p>Recouvert d'une armure durcie qui le protège des attaques.</p>
+    </div>
+
+    <div class="titan">
+        <h3>Titan Assaillant</h3>
+        <p>Titan d'Eren, capable de contrôler d'autres Titans et d'accéder aux mémoires des prédécesseurs et successeurs.</p>
+    </div>
+
+    <div class="titan">
+        <h3>Titan Féminin</h3>
+        <p>Agile et polyvalent, capable d'attirer d'autres Titans.</p>
+    </div>
+
+    <div class="titan">
+        <h3>Titan Mâchoire</h3>
+        <p>Agile et rapide, capable de se déplacer, sauter très rapidement et avec agilité.</p>
+    </div>
+
+    <div class="titan">
+        <h3>Titan Bestial</h3>
+        <p>Titan haut de 16 mètres, recouvert de fourrure, capable de parler.</p>
+    </div>
+</div>
+
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        
+        <p>Eren Jäger - Si tu gagnes, tu vis. Si tu perds, tu meurs. Et si tu ne combats pas, tu ne peux pas gagner. -</p> 
+    </footer>
+</div>
+ 
+<!-- =========================
+     SCRIPT JS
+========================= -->
+<script>
+// Intro screen animation
+document.getElementById("startBtn").addEventListener("click", function() {
+    const intro = document.getElementById("intro-screen");
+    intro.style.opacity = "0";
+    setTimeout(() => intro.style.display = "none", 800);
+});
+
+// Montrer sections
+function montrer(id) {
+
+    // 1️⃣ Cacher toutes les sections principales
+    var sections = document.getElementsByClassName('section');
+    for(var i=0;i<sections.length;i++){
+        sections[i].style.display='none';
+    }
+
+    // 2️⃣ RESET COMPLET DE LA SECTION SERIE
+    // (au cas où on la quitte)
+
+    // cacher anime / manga
+    document.getElementById("anime").style.display = "none";
+    document.getElementById("manga").style.display = "none";
+
+    // remettre hub visible
+    document.getElementById("hubSeries").style.display = "grid";
+
+    // cacher menu saison
+    const menuSaison = document.querySelector(".menu-saison");
+    if(menuSaison) menuSaison.style.display = "none";
+
+    // réafficher selecteur saisons
+    const selecteur = document.querySelector(".selecteur-saisons");
+    if(selecteur) selecteur.style.display = "grid";
+
+    // cacher toutes les sections internes saison
+    let saisonSections = document.getElementsByClassName("saison-section");
+    for (let i = 0; i < saisonSections.length; i++) {
+        saisonSections[i].style.display = "none";
+    }
+
+    // reset titre
+    document.getElementById("serie-title").textContent = "La Série";
+
+    // cacher bouton retour
+    document.getElementById("btn-back").style.display = "none";
+
+    currentLevel = "hub";
+
+    // 3️⃣ Afficher la bonne section
+    document.getElementById(id).style.display='block';
+}
+
+// Montrer saisons
+
+// Intro -> main site
+const startBtn = document.getElementById("startBtn");
+const intro = document.getElementById("intro-screen");
+const mainSite = document.getElementById("main-site");
+
+startBtn.addEventListener("click", () => {
+    intro.classList.add("slideUp");
+    setTimeout(() => {
+        intro.remove();
+        mainSite.style.opacity = "1";
+        mainSite.style.transform = "scale(1)";
+        document.body.classList.add("site-visible");
+    }, 1000);
+});
+
+
+
+
+const toggleSidebarBtn = document.getElementById("toggleSidebar");
+const sidebar = document.getElementById("sidebar");
+
+toggleSidebarBtn.addEventListener("click", () => {
+    sidebar.classList.toggle("collapsed");
+});
+
+
+
+
+let currentLevel = "hub"; 
+// hub → anime → saisons → saison-content
+
+function ouvrirType(typeId) {
+
+    document.getElementById("hubSeries").style.display = "none";
+    document.getElementById(typeId).style.display = "block";
+
+    document.getElementById("btn-back").style.display = "inline-block";
+
+    currentLevel = "anime";
+}
+
+function entrerSaison(id) {
+
+    document.querySelector(".selecteur-saisons").style.display = "none";
+    document.querySelector(".menu-saison").style.display = "flex";
+
+    const numero = id.replace("saison", "");
+    document.getElementById("serie-title").textContent = "Saison " + numero;
+
+    document.getElementById("btn-back").style.display = "inline-block";
+
+    ouvrirSaisonSection("s1-infos");
+
+    currentLevel = "saison";
+}
+
+function retourSmart() {
+
+    if (currentLevel === "saison") {
+
+        // Cacher toutes les sections internes
+        let sections = document.getElementsByClassName("saison-section");
+        for (let i = 0; i < sections.length; i++) {
+            sections[i].style.display = "none";
+        }
+
+        // Cacher menu saison
+        document.querySelector(".menu-saison").style.display = "none";
+
+        // Réafficher sélection saisons
+        document.querySelector(".selecteur-saisons").style.display = "grid";
+
+        // Reset titre
+        document.getElementById("serie-title").textContent = "La Série";
+
+        currentLevel = "anime";
+    }
+
+    else if (currentLevel === "anime") {
+
+        document.getElementById("anime").style.display = "none";
+        document.getElementById("manga").style.display = "none";
+        document.getElementById("hubSeries").style.display = "grid";
+
+        document.getElementById("serie-title").textContent = "La Série";
+        document.getElementById("btn-back").style.display = "none";
+
+        currentLevel = "hub";
+    }
+}
+
+
+
+function pauseVideos() {
+    var videos = document.querySelectorAll("video");
+    videos.forEach(video => video.pause());
+}
+
+function ouvrirSaisonSection(id) {
+
+    pauseVideos();
+
+    var sections = document.getElementsByClassName("saison-section");
+
+    for (var i = 0; i < sections.length; i++) {
+        sections[i].style.display = "none";
+    }
+
+    const target = document.getElementById(id);
+    if (target) {
+        target.style.display = "block";
+    }
+}
+
+document.querySelectorAll("video").forEach(video => {
+    video.addEventListener("play", function() {
+        document.querySelectorAll("video").forEach(v => {
+            if (v !== video) {
+                v.pause();
+            }
+        });
+    });
+});
+
+
+
+
+
+
+
+
+
+
+// OUVERTURE MODAL EPISODE
+
+const tiles = document.querySelectorAll(".episode-tile");
+const modal = document.getElementById("episodeModal");
+const modalTitle = document.getElementById("modalTitle");
+const modalSummary = document.getElementById("modalSummary");
+const modalRating = document.getElementById("modalRating");
+const modalLink = document.getElementById("modalLink");
+const closeModal = document.getElementById("closeModal");
+
+tiles.forEach(tile => {
+    tile.addEventListener("click", () => {
+
+        modalTitle.textContent = tile.dataset.title;
+        modalSummary.textContent = tile.dataset.summary;
+        modalRating.textContent = "Note SeriesGraph : ★ " + tile.dataset.rating;
+        modalLink.href = tile.dataset.link;
+
+        modal.style.display = "flex";
+    });
+});
+
+closeModal.addEventListener("click", () => {
+    modal.style.display = "none";
+});
+
+window.addEventListener("click", (e) => {
+    if (e.target === modal) {
+        modal.style.display = "none";
+    }
+});
+
+
+// BARRE DE RECHERCHE
+
+document.getElementById("episodeSearch").addEventListener("input", function() {
+
+    const search = this.value.toLowerCase();
+
+    document.querySelectorAll(".episode-tile").forEach(tile => {
+
+        const title = tile.dataset.title.toLowerCase();
+
+        tile.style.display = title.includes(search) ? "flex" : "none";
+
+    });
+
+});
+
+// FILTRE DE TRI
+const filterSelect = document.getElementById('filterEpisodes');
+const grid = document.querySelector('.episodes-grid');
+
+filterSelect.addEventListener('change', () => {
+    const episodes = Array.from(grid.children);
+    const value = filterSelect.value;
+
+    if(value === 'none') return;
+
+    episodes.sort((a,b) => {
+        const epA = parseInt(a.dataset.ep);
+        const epB = parseInt(b.dataset.ep);
+        const ratingA = parseFloat(a.dataset.rating);
+        const ratingB = parseFloat(b.dataset.rating);
+
+        if(value === 'ratingDesc') return ratingB - ratingA;
+        if(value === 'ratingAsc') return ratingA - ratingB;
+        if(value === 'epAsc') return epA - epB;
+        if(value === 'epDesc') return epB - epA;
+    });
+
+    episodes.forEach(ep => grid.appendChild(ep));
+});
+</script>
+
+</body>
+</html>
